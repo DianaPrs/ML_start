@@ -14,6 +14,8 @@ Each record in the dataset consists of the following attributes:
 Task:
 
 1) Create script to pars json file into DataFrame.
-2) Clean text in 'headline' and 'short_description columns.
-
+2) Clean text in 'headline' and 'short_description columns:
+    1. Remove punctuation.
+    2. Tokenize.
+    3. Remove stopwords.
 """
