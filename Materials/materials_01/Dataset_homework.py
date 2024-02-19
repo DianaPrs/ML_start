@@ -34,5 +34,13 @@ https://towardsdatascience.com/a-data-scientists-essential-guide-to-exploratory-
 https://www.kaggle.com/code/ekami66/detailed-exploratory-data-analysis-with-python
 https://saturncloud.io/blog/a-quick-guide-to-exploratory-data-analysis-using-jupyter-notebook/
 
+Task 3:
+1) Get random sample of data for each category. Example: https://www.youtube.com/watch?v=CBCCcssjXQY
+2) Vectorize it with TF-IDF https://www.linkedin.com/learning/nlp-with-python-for-machine-learning-essential-training/inverse-document-frequency-weighting?dApp=53239054&leis=LAA&resume=false&u=2113185
 
+Mode info about data sampling: 
+    Basics: https://www.youtube.com/watch?v=qhzkCebkSWE
+    Sampling error: https://www.youtube.com/watch?v=uGuWrPFStdg
+    Sampling methods: https://www.youtube.com/watch?v=be9e-Q-jC-0
+    
 """
