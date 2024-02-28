@@ -43,4 +43,13 @@ More info about data sampling:
     Sampling error: https://www.youtube.com/watch?v=uGuWrPFStdg
     Sampling methods: https://www.youtube.com/watch?v=be9e-Q-jC-0
     
+
+Task 4:
+Lesson from course: https://www.linkedin.com/learning/nlp-with-python-for-machine-learning-essential-training/random-forest-with-holdout-test-set?autoplay=true&resume=false&u=2113185
+1) Split dataset to train and test with train_test_split. 
+2) Fit train set to the RandomForest model and get the score for test set.
+    - you can use this starting parametrs: 
+        rf_model = RandomForestClassifier(n_estimators=100, n_jobs=-1, verbose=2)
+        rf_model = rf_model.fit(X_train, y_train)
+        rf_model.score(X_test, y_test)
 """
