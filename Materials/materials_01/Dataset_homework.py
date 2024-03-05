@@ -52,4 +52,12 @@ Lesson from course: https://www.linkedin.com/learning/nlp-with-python-for-machin
         rf_model = RandomForestClassifier(n_estimators=100, n_jobs=-1, verbose=2)
         rf_model = rf_model.fit(X_train, y_train)
         rf_model.score(X_test, y_test)
+
+Task 5 (the last one):
+Lesson from course: https://www.linkedin.com/learning/nlp-with-python-for-machine-learning-essential-training/random-forest-model-with-grid-search?resume=false&u=2113185
+1) Try to select best parameters for RandomForest model using Grid Search.
+Remember, what we used n_estimators=100 for our base model, not 10.
+Tip: you can use GridSearchCV from sklearn.model_selection
+2) (Optional task) Try to fit data to the other model, Gradient Boosting for example, as in the course.
+Or other algorithm implemented in sklearn https://scikit-learn.org/stable/modules/ensemble.html.
 """
